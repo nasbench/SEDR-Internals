@@ -1,0 +1,1699 @@
+Signature: MEMSCAN.Mimikatz!gen1
+Description: Suspicious process opened lsass processDescription
+bash.virus_id:4294923783
+
+Signature: MEMSCAN.Mimikatz!gen3
+Description: Possible Mimikatz credential theft: Suspicious injection in to lsassDescription
+bash.virus_id:4294925549
+
+Signature: MEMSCAN.Mimikatz!gen4
+Description: Suspected Mimikatz activityDescription
+bash.virus_id:4294925626
+
+Signature: MEMSCAN.PackThread!g1
+Description: Suspicious thread activity by packed executableDescription
+bash.virus_id:4294924393
+
+Signature: ACM.DocView!g1
+Description: Document reader launched PowerShellDescription
+bash.virus_id:4294925136
+
+Signature: ACM.DocView!g2
+Description: Document reader launched cmd.exeDescription
+bash.virus_id:4294925137
+
+Signature: ACM.DocView!g25
+Description: Document reader launched PowerShellDescription
+bash.virus_id:4294925138
+
+Signature: ACM.DocView!g26
+Description: Document reader launched cmd.exeDescription
+bash.virus_id:4294925139
+
+Signature: ACM.DocView!g27
+Description: Document reader launched MSHTADescription
+bash.virus_id:4294925140
+
+Signature: ACM.DocView!g28
+Description: Document reader launched scriptDescription
+bash.virus_id:4294925141
+
+Signature: ACM.DocView!g29
+Description: Document reader launched scriptDescription
+bash.virus_id:4294925142
+
+Signature: ACM.DocView!g3
+Description: Document reader launched MSHTADescription
+bash.virus_id:4294925143
+
+Signature: ACM.DocView!g30
+Description: Document reader launched JavaDescription
+bash.virus_id:4294925144
+
+Signature: SONAR.ACMDocView!g32
+Description: Document reader launched trusted developer utilityDescription
+bash.virus_id:4294925145
+
+Signature: ACM.DocView!g4
+Description: Document reader launched scriptDescription
+bash.virus_id:4294925146
+
+Signature: ACM.DocView!g5
+Description: Document reader launched scriptDescription
+bash.virus_id:4294925147
+
+Signature: ACM.DocView!g6
+Description: Document reader launched JavaDescription
+bash.virus_id:4294925148
+
+Signature: SONAR.ACMJava!g2
+Description: Java launched MSHTADescription
+bash.virus_id:4294925151
+
+Signature: SONAR.ACMJava!g4
+Description: Java launched scriptDescription
+bash.virus_id:4294925152
+
+Signature: ACM.Exl-Ps!g1
+Description: Microsoft Excel launched PowerShellDescription
+bash.virus_id:4294926844
+
+Signature: ACM.Exl-Cmd!g1
+Description: Microsoft Excel launched cmd.exeDescription
+bash.virus_id:4294926839
+
+Signature: ACM.Excel!g25
+Description: Microsoft Excel launched MSIDescription
+bash.virus_id:4294925764
+
+Signature: ACM.Exl-Mshta!g1
+Description: Microsoft Excel launched MSHTADescription
+bash.virus_id:4294926842
+
+Signature: ACM.Exl-Cscr!g1
+Description: Microsoft Excel launched scriptDescription
+bash.virus_id:4294926840
+
+Signature: ACM.Exl-Wscr!g1
+Description: Microsoft Excel launched scriptDescription
+bash.virus_id:4294926845
+
+Signature: ACM.Exl-Java!g1
+Description: Microsoft Excel launched JavaDescription
+bash.virus_id:4294926841
+
+Signature: ACM.Ppt-Ps!g1
+Description: Microsoft PowerPoint launched PowerShellDescription
+bash.virus_id:4294926857
+
+Signature: ACM.Ppt-Cmd!g1
+Description: Microsoft PowerPoint launched cmd.exeDescription
+bash.virus_id:4294926852
+
+Signature: ACM.PowerPoint!g25
+Description: Microsoft PowerPoint launched MSIDescription
+bash.virus_id:4294925799
+
+Signature: ACM.Ppt-Mshta!g1
+Description: Microsoft PowerPoint launched MSHTADescription
+bash.virus_id:4294926855
+
+Signature: ACM.Ppt-Cscr!g1
+Description: Microsoft PowerPoint launched scriptDescription
+bash.virus_id:4294926853
+
+Signature: ACM.Ppt-Wscr!g1
+Description: Microsoft PowerPoint launched scriptDescription
+bash.virus_id:4294926858
+
+Signature: ACM.Ppt-Java!g1
+Description: Microsoft PowerPoint launched JavaDescription
+bash.virus_id:4294926854
+
+Signature: ACM.Word-Ps!g1
+Description: Microsoft Word launched PowerShellDescription
+bash.virus_id:4294926869
+
+Signature: ACM.Word-Cmd!g1
+Description: Microsoft Word launched cmd.exeDescription
+bash.virus_id:4294926864
+
+Signature: ACM.Word!g25
+Description: Microsoft Word launched MSIDescription
+bash.virus_id:4294925769
+
+Signature: ACM.Word-Mshta!g1
+Description: Microsoft Word launched MSHTADescription
+bash.virus_id:4294926867
+
+Signature: ACM.Word-Cscr!g1
+Description: Microsoft Word launched scriptDescription
+bash.virus_id:4294926865
+
+Signature: ACM.Word-Wscr!g1
+Description: Microsoft Word launched scriptDescription
+bash.virus_id:4294926870
+
+Signature: ACM.Word-Java!g1
+Description: Microsoft Word launched JavaDescription
+bash.virus_id:4294926866
+
+Signature: SONAR.ACMOffice!g104
+Description: Microsoft Excel launched MSBuildDescription
+bash.virus_id:4294925067
+
+Signature: SONAR.ACMOffice!g111
+Description: Microsoft Excel created VBScript fileDescription
+bash.virus_id:4294925196
+
+Signature: ACM.Mshta-Ps!g1
+Description: MSHTA launched PowerShellDescription
+bash.virus_id:4294926850
+
+Signature: ACM.Wscr-Msbuild!g1
+Description: Script launched MSBuildDescription
+bash.virus_id:4294926873
+
+Signature: ACM.Cscr-Mshta!g1
+Description: Script launched MSHTADescription
+bash.virus_id:4294926836
+
+Signature: ACM.Mshta-Cmd!g1
+Description: MSHTA launched cmd.exeDescription
+bash.virus_id:4294926846
+
+Signature: ACM.Cscr-Msbuild!g1
+Description: Script launched MSBuildDescription
+bash.virus_id:4294926835
+
+Signature: ACM.Mshta-Msbuild!g1
+Description: MSHTA launched trusted developer utilityDescription
+bash.virus_id:4294926848
+
+Signature: ACM.Ps-Msbuild!g1
+Description: PowerShell launched trusted developer utilityDescription
+bash.virus_id:4294926861
+
+Signature: ACM.Ps-Mshta!g1
+Description: PowerShell launched MSHTADescription
+bash.virus_id:4294926862
+
+Signature: SONAR.Adwind!gen1
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294923229
+
+Signature: SONAR.Adwind!gen10
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924952
+
+Signature: SONAR.Adwind!gen12
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924964
+
+Signature: SONAR.Adwind!gen14
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924989
+
+Signature: SONAR.Adwind!gen15
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924991
+
+Signature: SONAR.Adwind!gen2
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924278
+
+Signature: SONAR.Adwind!gen4
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924478
+
+Signature: SONAR.Adwind!gen5
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924672
+
+Signature: SONAR.Adwind!gen7
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924909
+
+Signature: SONAR.Adwind!gen8
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924910
+
+Signature: SONAR.Adwind!gen9
+Description: Suspected Adwind RAT activityDescription
+bash.virus_id:4294924911
+
+Signature: SONAR.BC.CryptDrop!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923700
+
+Signature: SONAR.BC.CryptDrop!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923701
+
+Signature: SONAR.BC.CryptDrop!g3
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923702
+
+Signature: SONAR.BC.CryptDrop!g4
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923703
+
+Signature: SONAR.BC.CryptDrop!g5
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923704
+
+Signature: SONAR.BC.CryptDrop!g6
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923737
+
+Signature: SONAR.BC.Cryptlk!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923705
+
+Signature: SONAR.BC.Cryptlk!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923711
+
+Signature: SONAR.BC.Cryptlk!g3
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923738
+
+Signature: SONAR.BC.Cryptlk!g4
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923739
+
+Signature: SONAR.Bluwimps!gen2
+Description: Suspected Bluwimps PowerShell activityDescription
+bash.virus_id:4294924732
+
+Signature: SONAR.Bluwimps!gen3
+Description: Suspected Bluwimps PowerShell activityDescription
+bash.virus_id:4294924733
+
+Signature: SONAR.Bluwimps!gen5
+Description: Suspected Bluwimps PowerShell activityDescription
+bash.virus_id:4294924779
+
+Signature: SONAR.Coinbitminer!g1
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294923194
+
+Signature: SONAR.CoinMiner!gen9
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924889
+
+Signature: SONAR.Comhijack!gen2
+Description: COM Hijacking detectedDescription
+bash.virus_id:4294924723
+
+Signature: SONAR.Cryptdefense!g3
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923115
+
+Signature: SONAR.Cryptdefense!g4
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923212
+
+Signature: SONAR.Cryptlck!g104
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923784
+
+Signature: SONAR.Cryptlck!g112
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924084
+
+Signature: SONAR.Cryptlck!g114
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924135
+
+Signature: SONAR.Cryptlck!g115
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924155
+
+Signature: SONAR.Cryptlck!g117
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924157
+
+Signature: SONAR.Cryptlck!g118
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924158
+
+Signature: SONAR.Cryptlck!g120
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924160
+
+Signature: SONAR.Cryptlck!g128
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924200
+
+Signature: SONAR.Cryptlck!g131
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924218
+
+Signature: SONAR.Cryptlck!g140
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924262
+
+Signature: SONAR.Cryptlck!g143
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924265
+
+Signature: SONAR.Cryptlck!g146
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924315
+
+Signature: SONAR.Cryptlck!g147
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924316
+
+Signature: SONAR.Cryptlck!g148
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924317
+
+Signature: SONAR.Cryptlck!g149
+Description: Suspected ransomware activity detectedDescription
+bash.virus_id:4294924318
+
+Signature: SONAR.Cryptlck!g153
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924330
+
+Signature: SONAR.Cryptlck!g156
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924555
+
+Signature: SONAR.Cryptlck!g162
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924673
+
+Signature: SONAR.Cryptlck!g167
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924890
+
+Signature: SONAR.Cryptlck!g168
+Description: Suspected ransomware activity detectedDescription
+bash.virus_id:4294924891
+
+Signature: SONAR.Cryptlck!g169
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925000
+
+Signature: SONAR.Cryptlck!g170
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925003
+
+Signature: SONAR.Cryptlk.AF!g11
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924221
+
+Signature: SONAR.Cryptlk.AF!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923742
+
+Signature: SONAR.Cryptlk.AF!g3
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923796
+
+Signature: SONAR.Cryptlk.AF!g5
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924085
+
+Signature: SONAR.Cryptlk.AF!g8
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924202
+
+Signature: SONAR.Cryptlk.AH!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923489
+
+Signature: SONAR.Cryptlk.AH!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923505
+
+Signature: SONAR.Cryptlk.AN!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923787
+
+Signature: SONAR.Cryptlk.hdd!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923788
+
+Signature: SONAR.Cryptlk.NCod!g3
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924214
+
+Signature: SONAR.Cryptlk.XXX!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923790
+
+Signature: SONAR.Cryptlk.XXX!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923833
+
+Signature: SONAR.Cryptlocker!g13
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922834
+
+Signature: SONAR.Cryptlocker!g15
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922836
+
+Signature: SONAR.Cryptlocker!g27
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922909
+
+Signature: SONAR.Cryptlocker!g30
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922912
+
+Signature: SONAR.Cryptlocker!g31
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922913
+
+Signature: SONAR.Cryptlocker!g34
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922919
+
+Signature: SONAR.Cryptlocker!g35
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922920
+
+Signature: SONAR.Cryptlocker!g36
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922921
+
+Signature: SONAR.Cryptlocker!g38
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922923
+
+Signature: SONAR.Cryptlocker!g39
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922924
+
+Signature: SONAR.Cryptlocker!g40
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922925
+
+Signature: SONAR.Cryptlocker!g42
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922933
+
+Signature: SONAR.Cryptlocker!g43
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922988
+
+Signature: SONAR.Cryptlocker!g48
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923192
+
+Signature: SONAR.Cryptlocker!g51
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923292
+
+Signature: SONAR.Cryptlocker!g55
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923476
+
+Signature: SONAR.Cryptlocker!g57
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923490
+
+Signature: SONAR.Cryptlocker!g58
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923491
+
+Signature: SONAR.Cryptlocker!g59
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923492
+
+Signature: SONAR.Cryptlocker!g74
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923530
+
+Signature: SONAR.Cryptlocker!g75
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923531
+
+Signature: SONAR.Cryptlocker!g79
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923686
+
+Signature: SONAR.Cryptlocker!g80
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923694
+
+Signature: SONAR.Cryptlocker!g85
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923721
+
+Signature: SONAR.Cryptlocker!g98
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923764
+
+Signature: SONAR.Cryptolocker!g7
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922479
+
+Signature: SONAR.CryptoLocker!g8
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922477
+
+Signature: SONAR.Danabot!g1
+Description: Suspicious process created DLL and ran with RunDLL32Description
+bash.virus_id:4294925125
+
+Signature: SONAR.Dbger!g1
+Description: Suspected ransomware activity detectedDescription
+bash.virus_id:4294924955
+
+Signature: SONAR.DI!gen1
+Description: Low reputation file downloadedDescription
+bash.virus_id:4294924215
+
+Signature: SONAR.DocExec!gen2
+Description: Microsoft Office attempted to launch suspicious processDescription
+bash.virus_id:4294923716
+
+Signature: SONAR.Downloader!gen2
+Description: Suspicious downloader detectedDescription
+bash.virus_id:4294923191
+
+Signature: SONAR.Dropper
+Description: Suspected malware dropper detectedDescription
+bash.virus_id:4294920965
+
+Signature: SONAR.Dropper!gen2
+Description: Suspected malware dropper detectedDescription
+bash.virus_id:4294921075
+
+Signature: SONAR.Dropper!gen3
+Description: PowerShell created a suspicious fileDescription
+bash.virus_id:4294924790
+
+Signature: SONAR.DumpSAM!gen2
+Description: Credential dumping via reg.exe detectedDescription
+bash.virus_id:4294925088
+
+Signature: SONAR.Exploit!gen1
+Description: Internet Explorer attempted to launch a suspicious processDescription
+bash.virus_id:4294924376
+
+Signature: SONAR.Exploit!gen4
+Description: Suspicious Scheduled Task creationDescription
+bash.virus_id:4294925715
+
+Signature: SONAR.Exploit!gen6
+Description: Suspicious access to browser settings followed by suspicious browser launchDescription
+bash.virus_id:4294925727
+
+Signature: SONAR.GhostMiner!gen1
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924863
+
+Signature: SONAR.Gosopad!gen5
+Description: Suspicious PowerShell deleted servicesDescription
+bash.virus_id:4294924866
+
+Signature: SONAR.Hacktool!gen1
+Description: Suspected hacktool usageDescription
+bash.virus_id:4294922871
+
+Signature: SONAR.Hacktool!gen3
+Description: Suspected hacktool usageDescription
+bash.virus_id:4294924338
+
+Signature: SONAR.Hacktool!gen4
+Description: Suspected hacktool usageDescription
+bash.virus_id:4294925321
+
+Signature: SONAR.Hwpexp!gen2
+Description: Hanword word processor attempted to launch a suspicious processDescription
+bash.virus_id:4294924741
+
+Signature: SONAR.Hwpexp!gen3
+Description: Hanword word processor attempted a process injectionDescription
+bash.virus_id:4294924742
+
+Signature: SONAR.IFEO!gen1
+Description: Suspicious registry changesDescription
+bash.virus_id:4294924244
+
+Signature: SONAR.IFEO!gen2
+Description: Suspicious changes to Image File Execution OptionsDescription
+bash.virus_id:4294924245
+
+Signature: SONAR.Infostealer!g3
+Description: Suspected process discoveryDescription
+bash.virus_id:4294921174
+
+Signature: SONAR.IRCbotng!gen5
+Description: Suspected IRC bot activityDescription
+bash.virus_id:4294921099
+
+Signature: SONAR.IRCbotng!gen6
+Description: Suspected IRC bot activityDescription
+bash.virus_id:4294921116
+
+Signature: SONAR.IRCbotng!gen7
+Description: Suspected IRC bot activityDescription
+bash.virus_id:4294921141
+
+Signature: SONAR.IRCbotng!gen8
+Description: Suspected IRC bot activityDescription
+bash.virus_id:4294922868
+
+Signature: SONAR.JavaJAR!g1
+Description: Java attempted to launch a suspicious processDescription
+bash.virus_id:4294923493
+
+Signature: SONAR.JSDownload!g10
+Description: Email client attempted to run a suspicious scriptDescription
+bash.virus_id:4294923836
+
+Signature: SONAR.JSDownload!g11
+Description: Script attempted to launch a suspicious processDescription
+bash.virus_id:4294924136
+
+Signature: SONAR.JSDownload!g12
+Description: Script attempted to launch a suspicious processDescription
+bash.virus_id:4294924162
+
+Signature: SONAR.JSDownloader!g1
+Description: Script attempted to launch a suspicious processDescription
+bash.virus_id:4294923147
+
+Signature: SONAR.JSDownloader!g2
+Description: Email client attempted to run a suspicious scriptDescription
+bash.virus_id:4294923471
+
+Signature: SONAR.JSDownloader!g3
+Description: Web browser attempted to run a suspicious scriptDescription
+bash.virus_id:4294923494
+
+Signature: SONAR.Keylog!gen1
+Description: Suspected keylogger activityDescription
+bash.virus_id:4294925227
+
+Signature: SONAR.LoadPoint!gen5
+Description: Suspicious load point created by injected threadDescription
+bash.virus_id:4294921155
+
+Signature: SONAR.LoadPoint!gen6
+Description: Attempt to create a suspicious load point to recycle binDescription
+bash.virus_id:4294922872
+
+Signature: SONAR.LowSec!gen1
+Description: Suspicious process attempted to lower security warningsDescription
+bash.virus_id:4294921031
+
+Signature: SONAR.LowSec!gen3
+Description: Suspicious process attempted to lower security warningsDescription
+bash.virus_id:4294921137
+
+Signature: SONAR.LowSec.C!gen11
+Description: Suspicious process attempted to delete zone.identifierDescription
+bash.virus_id:4294923064
+
+Signature: SONAR.LowSec.C!gen3
+Description: Suspicious process attempted to delete zone.identifierDescription
+bash.virus_id:4294923066
+
+Signature: SONAR.LowSec.C!gen7
+Description: Suspicious process attempted to delete zone.identifierDescription
+bash.virus_id:4294923070
+
+Signature: SONAR.LowSec.C!gen9
+Description: Suspicious process attempted to delete zone.identifierDescription
+bash.virus_id:4294923072
+
+Signature: SONAR.Malbuild!gen1
+Description: Suspicious use of C# compilerDescription
+bash.virus_id:4294924325
+
+Signature: SONAR.MalJava!gen2
+Description: Suspicious Java JAR launchDescription
+bash.virus_id:4294925300
+
+Signature: SONAR.MalTraffic!g10
+Description: Suspicious network traffic from scriptDescription
+bash.virus_id:4294924743
+
+Signature: SONAR.MalTraffic!g1
+Description: Suspicious network activityDescription
+bash.virus_id:4294920962
+
+Signature: SONAR.MalTraffic!g2
+Description: Suspicious network activityDescription
+bash.virus_id:4294920974
+
+Signature: SONAR.MalTraffic!g3
+Description: Suspicious network activityDescription
+bash.virus_id:4294922960
+
+Signature: SONAR.MalTraffic!gen7
+Description: Suspicious network traffic from PowerShellDescription
+bash.virus_id:4294924458
+
+Signature: SONAR.MalTraffic!gen8
+Description: Suspicious network traffic from MSBuildDescription
+bash.virus_id:4294924459
+
+Signature: SONAR.MavInject!g1
+Description: Process injection attempted using Microsoft mavinjectDescription
+bash.virus_id:4294924744
+
+Signature: SONAR.MavInject!g2
+Description: Suspicious injection using mavinject32/64Description
+bash.virus_id:4294925126
+
+Signature: SONAR.MBRAccess!gen1
+Description: Suspected write to Master Boot Record attemptedDescription
+bash.virus_id:4294924168
+
+Signature: SONAR.MBRAccess!gen4
+Description: Suspected write to Master Boot Record attemptedDescription
+bash.virus_id:4294924419
+
+Signature: SONAR.Mimikatz!gen10
+Description: Possible Mimikatz credential theft: untrusted process attempted to load cryptography DLLs and to access lsass memoryDescription
+bash.virus_id:4294924716
+
+Signature: SONAR.Mimikatz!gen11
+Description: Possible Mimikatz credential theft: untrusted process attempted to load cryptography DLLs and to access lsass memoryDescription
+bash.virus_id:4294924787
+
+Signature: SONAR.Mimikatz!gen12
+Description: Possible Mimikatz credential theft: PowerShell attempted to access lsass memoryDescription
+bash.virus_id:4294924800
+
+Signature: SONAR.Mimikatz!gen13
+Description: Suspected Mimikatz activityDescription
+bash.virus_id:4294925096
+
+Signature: SONAR.Mimikatz!gen14
+Description: Suspected Mimikatz credential theft activityDescription
+bash.virus_id:4294925703
+
+Signature: SONAR.Mimikatz!gen3
+Description: Attempted PowerShell Mimikatz credential theft attemptDescription
+bash.virus_id:4294922850
+
+Signature: SONAR.Mimikatz!gen5
+Description: Possible Mimikatz credential theft: MSBuild attempted to open lsass processDescription
+bash.virus_id:4294924320
+
+Signature: SONAR.Mimikatz!gen6
+Description: Possible Mimikatz credential theft: script attempted to open lsass processDescription
+bash.virus_id:4294924340
+
+Signature: SONAR.Mimikatz!gen7
+Description: Possible Mimikatz credential theft: process attempted to load cryptography DLLs and to access lsass memoryDescription
+bash.virus_id:4294924347
+
+Signature: SONAR.Mimikatz!gen8
+Description: Possible Mimikatz credential theft: process attempted to load cryptography DLLs and to access lsass memoryDescription
+bash.virus_id:4294924349
+
+Signature: SONAR.Mimikatz!gen9
+Description: Possible Mimikatz credential theft: PowerShell attempted to access lsass memoryDescription
+bash.virus_id:4294924648
+
+Signature: SONAR.Miner!gen1
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924745
+
+Signature: SONAR.Miner!gen2
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924829
+
+Signature: SONAR.Miner!gen3
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924903
+
+Signature: SONAR.MM.PS!g1
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924138
+
+Signature: SONAR.MM.PUA!g2
+Description: Suspected cryptocurrency miner activity detectedDescription
+bash.virus_id:4294924140
+
+Signature: SONAR.MSHta!g1
+Description: Mshta attempted to launch a suspicious processDescription
+bash.virus_id:4294923481
+
+Signature: SONAR.MSHta!g2
+Description: Mshta attempted to launch suspicious JavaScriptDescription
+bash.virus_id:4294924746
+
+Signature: SONAR.MSHta!g3
+Description: Mshta attempted to launch JavaScriptDescription
+bash.virus_id:4294924747
+
+Signature: SONAR.MSHta!g4
+Description: MSHTA ran suspicious scriptDescription
+bash.virus_id:4294925023
+
+Signature: SONAR.MSHta!g5
+Description: MSHTA ran suspicious scriptDescription
+bash.virus_id:4294925024
+
+Signature: SONAR.MSHta!g6
+Description: MSHTA attempted to download another hta fileDescription
+bash.virus_id:4294925058
+
+Signature: SONAR.MSHta!g7
+Description: MSHTA ran suspicious scriptDescription
+bash.virus_id:4294925059
+
+Signature: SONAR.MSHta!g8
+Description: Mshta attempted to launch suspicious JavaScriptDescription
+bash.virus_id:4294925301
+
+Signature: SONAR.MSHta!g9
+Description: Mshta attempted to launch suspicious VBScriptDescription
+bash.virus_id:4294925319
+
+Signature: SONAR.MSOffice!g1
+Description: Suspicious process launch attempted from document reader and script ancestorsDescription
+bash.virus_id:4294923551
+
+Signature: SONAR.MSOffice!g14
+Description: Microsoft Office attempted to run Scheduled TasksDescription
+bash.virus_id:4294924399
+
+Signature: SONAR.MSOffice!g15
+Description: Microsoft Office attempted to launch psexecDescription
+bash.virus_id:4294924400
+
+Signature: SONAR.MSOffice!g16
+Description: Microsoft Office attempted to launch bitsadminDescription
+bash.virus_id:4294924401
+
+Signature: SONAR.MSOffice!g17
+Description: Microsoft Office attempted to launch certutilDescription
+bash.virus_id:4294924402
+
+Signature: SONAR.MSOffice!g20
+Description: Microsoft Office ran suspicious PowerShellDescription
+bash.virus_id:4294924418
+
+Signature: SONAR.MSOffice!g21
+Description: Microsoft Office launched cmd.exe, which attempted to launch a suspicious processDescription
+bash.virus_id:4294924445
+
+Signature: SONAR.MSOffice!g22
+Description: Microsoft Office launched svchost, which attempted to launch a suspicious processDescription
+bash.virus_id:4294924446
+
+Signature: SONAR.MSOffice!g23
+Description: Process suspected of masquerading as Microsoft OfficeDescription
+bash.virus_id:4294924447
+
+Signature: SONAR.MSOffice!g26
+Description: Outlook attempted to launch suspicious PowerShellDescription
+bash.virus_id:4294924649
+
+Signature: SONAR.MSOffice!g30
+Description: Office loaded local copy of system binaryDescription
+bash.virus_id:4294924830
+
+Signature: SONAR.MSOffice!g32
+Description: Document reader launched PowerShell masquerading as another filenameDescription
+bash.virus_id:4294925097
+
+Signature: SONAR.MSOffice!g5
+Description: Microsoft Office attempted to launch a suspicious command promptDescription
+bash.virus_id:4294924208
+
+Signature: SONAR.MSOffice!g6
+Description: Microsoft Office launched PowerShell script, which performed network activity and attempted to create a DLL (suspected download)Description
+bash.virus_id:4294924209
+
+Signature: SONAR.MSOffice!g7
+Description: Microsoft Office launched a PowerShell script, which attempted network activityDescription
+bash.virus_id:4294924238
+
+Signature: SONAR.MSOffice!g8
+Description: Suspicious process launch attempted from document reader and mshta ancestorsDescription
+bash.virus_id:4294924306
+
+Signature: SONAR.Mstsc!gen1
+Description: Mstsc.exe attempted to launch a suspicious processDescription
+bash.virus_id:4294924387
+
+Signature: SONAR.MSWord!g1
+Description: Microsoft Word launched script, which attempted to launch a suspicious processDescription
+bash.virus_id:4294923216
+
+Signature: SONAR.MSWord!g17
+Description: Microsoft Word created a DLL and attempted to launch rundll32.exeDescription
+bash.virus_id:4294923759
+
+Signature: SONAR.MSWord!g19
+Description: Microsoft Word attempted to run a scriptDescription
+bash.virus_id:4294925229
+
+Signature: SONAR.MSWord!g2
+Description: Microsoft Word launched PowerShell, which attempted to launch a suspicious processDescription
+bash.virus_id:4294923475
+
+Signature: SONAR.MSWord!g20
+Description: Suspicious download from Word launched by OutlookDescription
+bash.virus_id:4294925054
+
+Signature: SONAR.MSWord!g22
+Description: Microsoft Word started a suspicious processDescription
+bash.virus_id:4294925220
+
+Signature: SONAR.MSWord!g24
+Description: Microsoft word crated a supicious HTA fileDescription
+bash.virus_id:4294925534
+
+Signature: SONAR.MSWord!g6
+Description: Microsoft Word launched cmd.exe, which attempted to launch a suspicious processDescription
+bash.virus_id:4294923522
+
+Signature: SONAR.MSWord!g7
+Description: Suspicious binary in a temp directory attempted to launch Microsoft WordDescription
+bash.virus_id:4294923525
+
+Signature: SONAR.MultiExt!gen2
+Description: Attempted launch of suspicious process with multiple file extensionsDescription
+bash.virus_id:4294922821
+
+Signature: SONAR.MultiExt!gen3
+Description: Suspicious load of file with multiple extensionsDescription
+bash.virus_id:4294922926
+
+Signature: SONAR.Patchbrowse!g1
+Description: Suspicious process attempted to overwrite Chrome DLLDescription
+bash.virus_id:4294922940
+
+Signature: SONAR.Poweliks!gen2
+Description: Suspicious code stored in registryDescription
+bash.virus_id:4294921179
+
+Signature: SONAR.Powershell!g11
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924801
+
+Signature: SONAR.Powershell!g12
+Description: PowerShell attempted to query for installed AV productsDescription
+bash.virus_id:4294924802
+
+Signature: SONAR.Powershell!g13
+Description: Suspicious PowerShell command: script piped to powershell.exeDescription
+bash.virus_id:4294924817
+
+Signature: SONAR.Powershell!g14
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924818
+
+Signature: SONAR.Powershell!g16
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924834
+
+Signature: SONAR.Powershell!g17
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924852
+
+Signature: SONAR.Powershell!g20
+Description: Obfuscated PowerShell script detectedDescription
+bash.virus_id:4294924905
+
+Signature: SONAR.Powershell!g21
+Description: Suspiciously obfuscated PowerShell script detectedDescription
+bash.virus_id:4294924929
+
+Signature: SONAR.Powershell!g22
+Description: WMI launched PowerShellDescription
+bash.virus_id:4294924930
+
+Signature: SONAR.Powershell!g23
+Description: Suspicious PowerShell interacting with clipboard detectedDescription
+bash.virus_id:4294924931
+
+Signature: SONAR.Powershell!g24
+Description: Suspicious PowerShell interacting with AMSI detectedDescription
+bash.virus_id:4294924932
+
+Signature: SONAR.Powershell!g25
+Description: Suspicious PowerShell attempting to bypass AMSIDescription
+bash.virus_id:4294924933
+
+Signature: SONAR.Powershell!g26
+Description: Suspicious PowerShell attempting to bypass AMSIDescription
+bash.virus_id:4294924934
+
+Signature: SONAR.Powershell!g28
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924936
+
+Signature: SONAR.Powershell!g29
+Description: Obfuscated PowerShell script detectedDescription
+bash.virus_id:4294924937
+
+Signature: SONAR.Powershell!g32
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924946
+
+Signature: SONAR.Powershell!g33
+Description: Rundll32 launched suspicious PowerShellDescription
+bash.virus_id:4294924947
+
+Signature: SONAR.Powershell!g34
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924956
+
+Signature: SONAR.Powershell!g35
+Description: Suspicious PowerShell usageDescription
+bash.virus_id:4294924975
+
+Signature: SONAR.Powershell!g40
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294925344
+
+Signature: SONAR.Powershell!g41
+Description: Suspicious process created and launched ps1 fileDescription
+bash.virus_id:4294925543
+
+Signature: SONAR.Powershell!g42
+Description: PowerShell launched remote control applicationDescription
+bash.virus_id:4294925624
+
+Signature: SONAR.Powershell!g44
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294925730
+
+Signature: SONAR.Powershell!g45
+Description: MSSQL launched PowerShellDescription
+bash.virus_id:4294925731
+
+Signature: SONAR.Powershell!g46
+Description: SharePoint launched PowerShellDescription
+bash.virus_id:4294925732
+
+Signature: SONAR.Powershell!gen2
+Description: Suspected process injection from PowerShellDescription
+bash.virus_id:4294924518
+
+Signature: SONAR.Powershell!gen4
+Description: Suspicious PowerShell detectedDescription
+bash.virus_id:4294924750
+
+Signature: SONAR.Powershell!gen5
+Description: Evasive PowerShell script detectedDescription
+bash.virus_id:4294924751
+
+Signature: SONAR.Powershell!gen7
+Description: Evasive PowerShell script detectedDescription
+bash.virus_id:4294924753
+
+Signature: SONAR.Powershell!gen8
+Description: Suspicious PowerShell script performed network activityDescription
+bash.virus_id:4294924754
+
+Signature: SONAR.Powersploit!g2
+Description: PowerShell suspected of decrypting IIS connection stringsDescription
+bash.virus_id:4294924807
+
+Signature: SONAR.ProcHijack!g11
+Description: Suspicious process injected into Microsoft processDescription
+bash.virus_id:4294924279
+
+Signature: SONAR.ProcHijack!g12
+Description: Suspicious process injected into Windows ExplorerDescription
+bash.virus_id:4294924280
+
+Signature: SONAR.ProcHijack!g13
+Description: Suspected process injectionDescription
+bash.virus_id:4294924281
+
+Signature: SONAR.ProcHijack!g15
+Description: Suspicious injection attempted into chrome.exeDescription
+bash.virus_id:4294924434
+
+Signature: SONAR.ProcHijack!g16
+Description: Suspicious injection attempted into firefox.exeDescription
+bash.virus_id:4294924435
+
+Signature: SONAR.ProcHijack!g17
+Description: Suspicious injection attempted into opera.exeDescription
+bash.virus_id:4294924436
+
+Signature: SONAR.ProcHijack!g21
+Description: Suspicious process injection attemptedDescription
+bash.virus_id:4294924487
+
+Signature: SONAR.ProcHijack!g23
+Description: Suspected process hollowing attemptedDescription
+bash.virus_id:4294924519
+
+Signature: SONAR.ProcHijack!g24
+Description: Suspected process injection attemptedDescription
+bash.virus_id:4294924687
+
+Signature: SONAR.ProcHijack!g26
+Description: Suspicious process attempted injection into Windows ExplorerDescription
+bash.virus_id:4294924688
+
+Signature: SONAR.ProcHijack!g28
+Description: PowerShell attempted injection into lsassDescription
+bash.virus_id:4294924703
+
+Signature: SONAR.ProcHijack!g32
+Description: Untrusted process launched Windows Explorer and then attempted injection into Windows ExplorerDescription
+bash.virus_id:4294924819
+
+Signature: SONAR.ProcHijack!g34
+Description: Untrusted process attempted to write memory in a Microsoft processDescription
+bash.virus_id:4294925230
+
+Signature: SONAR.ProcHijack!g35
+Description: Script attempted to write memory in a Microsoft processDescription
+bash.virus_id:4294924836
+
+Signature: SONAR.ProcHijack!g37
+Description: Untrusted process attempted to open a thread in a Microsoft processDescription
+bash.virus_id:4294924837
+
+Signature: SONAR.ProcHijack!g38
+Description: Suspicious injection in to MSBuildDescription
+bash.virus_id:4294924915
+
+Signature: SONAR.ProcHijack!g41
+Description: Suspicious process injected into Microsoft processDescription
+bash.virus_id:4294925128
+
+Signature: SONAR.ProcHijack!g42
+Description: Suspicious process injected into Microsoft processDescription
+bash.virus_id:4294925177
+
+Signature: SONAR.ProcHijack!g43
+Description: Suspicious process injected into Microsoft processDescription
+bash.virus_id:4294925178
+
+Signature: SONAR.ProcHijack!g44
+Description: Suspicious process injected into Microsoft processDescription
+bash.virus_id:4294925179
+
+Signature: SONAR.ProcHijack!g45
+Description: Suspicious process injected into Microsoft processDescription
+bash.virus_id:4294925180
+
+Signature: SONAR.ProcHijack!g46
+Description: Suspicious process injected into trusted processDescription
+bash.virus_id:4294925181
+
+Signature: SONAR.ProcHijack!g47
+Description: Suspicious process injected into trusted processDescription
+bash.virus_id:4294925182
+
+Signature: SONAR.ProcHijack!g48
+Description: Suspicious process injected into trusted processDescription
+bash.virus_id:4294925183
+
+Signature: SONAR.ProcHijack!g49
+Description: Suspicious process injected into trusted processDescription
+bash.virus_id:4294925184
+
+Signature: SONAR.ProcHijack!gen1
+Description: Attempted process hollowing of Microsoft processDescription
+bash.virus_id:4294920960
+
+Signature: SONAR.ProcHijack!gen3
+Description: Attempted modification of Microsoft process thread contextDescription
+bash.virus_id:4294921043
+
+Signature: SONAR.ProcHijack!gen5
+Description: Attempted injection into system process via remote thread creationDescription
+bash.virus_id:4294921108
+
+Signature: SONAR.ProcHijack!gen6
+Description: Internet Explorer attempted to perform process hollowing on a RunDLL processDescription
+bash.virus_id:4294922797
+
+Signature: SONAR.ProcHijack!gen7
+Description: Suspicious process attempted process hollowing of a Microsoft processDescription
+bash.virus_id:4294922963
+
+Signature: SONAR.ProcHijack!gen8
+Description: Suspicious process launched Internet Explorer and then attempted to inject into Internet ExplorerDescription
+bash.virus_id:4294923732
+
+Signature: SONAR.ProcHijack!gen9
+Description: Suspicious process launched a copy of itself and then attempted to inject into the copyDescription
+bash.virus_id:4294923751
+
+Signature: SONAR.ProcInject!gen6
+Description: Suspected process injectionDescription
+bash.virus_id:4294925708
+
+Signature: SONAR.PSDownload!g11
+Description: PowerShell attempted to launch a web browserDescription
+bash.virus_id:4294924656
+
+Signature: SONAR.PSDownload!g12
+Description: Microsoft Office launched PowerShell, which attempted to launch a suspicious processDescription
+bash.virus_id:4294924660
+
+Signature: SONAR.PSDownloader!g1
+Description: Windows Explorer launched PowerShell, which attempted to launch a suspicious processDescription
+bash.virus_id:4294924267
+
+Signature: SONAR.PSDownloader!g2
+Description: Web Browser launched PowerShell, which attempted to launch a suspicious processDescription
+bash.virus_id:4294924268
+
+Signature: SONAR.PSDownloader!g3
+Description: Email client launched PowerShell, which attempted to launch a suspicious processDescription
+bash.virus_id:4294924269
+
+Signature: SONAR.PSDownloader!g4
+Description: Suspicious PowerShell attempted to launch a Windows executableDescription
+bash.virus_id:4294924270
+
+Signature: SONAR.PSDownloader!g8
+Description: Microsoft Office launched suspicious PowerShell, which attempted network accessDescription
+bash.virus_id:4294924557
+
+Signature: SONAR.PsEmpire!g10
+Description: Load point to PowerShell createdDescription
+bash.virus_id:4294925168
+
+Signature: SONAR.PsEmpire!gen3
+Description: Suspected PowerShell Empire launch attemptDescription
+bash.virus_id:4294924523
+
+Signature: SONAR.PsEmpire!gen5
+Description: Suspiciously encoded PowerShell launch attemptedDescription
+bash.virus_id:4294924525
+
+Signature: SONAR.PsEmpire!gen7
+Description: Suspected PowerShell Empire activityDescription
+bash.virus_id:4294924906
+
+Signature: SONAR.PsEmpire!gen8
+Description: Suspected PowerShell Empire activityDescription
+bash.virus_id:4294924907
+
+Signature: SONAR.PsEmpire!gen9
+Description: Suspected PowerShell Empire activity: obfuscated PowerShell script detectedDescription
+bash.virus_id:4294924942
+
+Signature: SONAR.PSExec!gen1
+Description: Script attempted to launch psexec to run a remote process in the System accountDescription
+bash.virus_id:4294924526
+
+Signature: SONAR.PSExec!gen6
+Description: PowerShell attempted to launch psexec to run a remote process in the System accountDescription
+bash.virus_id:4294924531
+
+Signature: SONAR.PsExeSvc!gen1
+Description: PsExec interacted with servicesDescription
+bash.virus_id:4294923496
+
+Signature: SONAR.PsSyncApp!g1
+Description: Suspicious SyncAppvPublishingServer command lineDescription
+bash.virus_id:4294924488
+
+Signature: SONAR.Ransom!gen10
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924271
+
+Signature: SONAR.Ransom!gen12
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924273
+
+Signature: SONAR.Ransom!gen14
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924302
+
+Signature: SONAR.Ransom!gen15
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924303
+
+Signature: SONAR.Ransom!gen16
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924307
+
+Signature: SONAR.Ransom!gen24
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924416
+
+Signature: SONAR.Ransom!gen25
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924463
+
+Signature: SONAR.Ransom!gen28
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925028
+
+Signature: SONAR.Ransom!gen29
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925029
+
+Signature: SONAR.Ransom!gen3
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923217
+
+Signature: SONAR.Ransom!gen32
+Description: Suspected PowerShell ransomware activityDescription
+bash.virus_id:4294925135
+
+Signature: SONAR.Ransom!gen34
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925322
+
+Signature: SONAR.Ransom!gen6
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924088
+
+Signature: SONAR.Ransom!gen9
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924257
+
+Signature: SONAR.Ransom.AK!gen1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294922935
+
+Signature: SONAR.RansomCrys!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924895
+
+Signature: SONAR.RansomCrys!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294924896
+
+Signature: SONAR.RansomHermes!g1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925092
+
+Signature: SONAR.Ransomlock.G!g2
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294923733
+
+Signature: SONAR.RansomRyuk!gen1
+Description: Suspected ransomware activityDescription
+bash.virus_id:4294925710
+
+Signature: SONAR.SelfHijack!gen1
+Description: Process attempted to perform process hollowing on a copy of itselfDescription
+bash.virus_id:4294921113
+
+Signature: SONAR.Shellcode!gen1
+Description: Internet Explorer attempted to run a suspicious scriptDescription
+bash.virus_id:4294923718
+
+Signature: SONAR.SuspBeh!gen1
+Description: Suspicious attempt to access hosts fileDescription
+bash.virus_id:4294921019
+
+Signature: SONAR.SuspBeh!gen16
+Description: Attempted launch of UPX packed exe from StartUp folderDescription
+bash.virus_id:4294921183
+
+Signature: SONAR.SuspBeh!gen17
+Description: Suspicious run key modification attemptedDescription
+bash.virus_id:4294921192
+
+Signature: SONAR.SuspBeh!gen18
+Description: Suspicious run key modification attemptedDescription
+bash.virus_id:4294921193
+
+Signature: SONAR.SuspBeh!gen21
+Description: Injected thread attempted suspicious registry writeDescription
+bash.virus_id:4294922481
+
+Signature: SONAR.SuspBeh!gen22
+Description: Suspicious registry write attemptedDescription
+bash.virus_id:4294922804
+
+Signature: SONAR.SuspBeh!gen23
+Description: Attempted write of executable masquerading as operating system fileDescription
+bash.virus_id:4294922820
+
+Signature: SONAR.SuspBeh!gen24
+Description: Injected process attempted network communication and suspicious load point creationDescription
+bash.virus_id:4294922838
+
+Signature: SONAR.SuspBeh!gen25
+Description: Attempted write of file masquerading as operating system fileDescription
+bash.virus_id:4294922839
+
+Signature: SONAR.SuspBeh!gen306
+Description: Injected thread attempted network communication and loadpoint creationDescription
+bash.virus_id:4294922488
+
+Signature: SONAR.SuspBeh!gen307
+Description: Injected thread attempted to modify Internet Explorer security and to create a load pointDescription
+bash.virus_id:4294922489
+
+Signature: SONAR.SuspBeh!gen313
+Description: Process attempted to create an exe file and to modify Winlogon startupsDescription
+bash.virus_id:4294922495
+
+Signature: SONAR.SuspBeh!gen32
+Description: Suspicious process launch attemptedDescription
+bash.virus_id:4294922848
+
+Signature: SONAR.SuspBeh!gen329
+Description: Process attempted to create an exe file and to modify the Policy startup registry areaDescription
+bash.virus_id:4294922511
+
+Signature: SONAR.SuspBeh!gen330
+Description: Process attempted to modify Policy startup registry area and to create a start menu entryDescription
+bash.virus_id:4294922512
+
+Signature: SONAR.SuspBeh!gen36
+Description: Suspicious process launch attemptedDescription
+bash.virus_id:4294922579
+
+Signature: SONAR.SuspBeh!gen39
+Description: Suspicious process launch attemptedDescription
+bash.virus_id:4294922579
+
+Signature: SONAR.SuspBeh!gen397
+Description: Process with injected thread attempted to create an autorun entryDescription
+bash.virus_id:4294922579
+
+Signature: SONAR.SuspBeh!gen4
+Description: Injected thread attempted to modify AntiVirus settings in registryDescription
+bash.virus_id:4294921101
+
+Signature: SONAR.SuspBeh!gen414
+Description: Injected thread attempted to create an exe file and an autorun entryDescription
+bash.virus_id:4294922596
+
+Signature: SONAR.SuspBeh!gen42
+Description: Suspicious process launch attemptedDescription
+bash.virus_id:4294922890
+
+Signature: SONAR.SuspBeh!gen43
+Description: Suspicious process launch attemptedDescription
+bash.virus_id:4294922891
+
+Signature: SONAR.SuspBeh!gen434
+Description: Injected thread attempted to communicate over the network communication and to create an autorun entryDescription
+bash.virus_id:4294922616
+
+Signature: SONAR.SuspBeh!gen45
+Description: Injected thread attempted to create an executable and to launch a processDescription
+bash.virus_id:4294922893
+
+Signature: SONAR.SuspBeh!gen452
+Description: Injected thread attempted to create an autorun entryDescription
+bash.virus_id:4294922634
+
+Signature: SONAR.SuspBeh!gen46
+Description: Suspicious process attempted to copy itself to a suspicious locationDescription
+bash.virus_id:4294922894
+
+Signature: SONAR.SuspBeh!gen483
+Description: Injected thread attempted to create an exe file and an autorun entryDescription
+bash.virus_id:4294922665
+
+Signature: SONAR.SuspBeh!gen485
+Description: Injected thread attempted to communicate over the network and to create an autorun entryDescription
+bash.virus_id:4294922667
+
+Signature: SONAR.SuspBeh!gen5
+Description: Injected thread attempted a suspicious write to Alternate Data StreamDescription
+bash.virus_id:4294921102
+
+Signature: SONAR.SuspBeh!gen526
+Description: Registry load point created from injected threadDescription
+bash.virus_id:4294922708
+
+Signature: SONAR.SuspBeh!gen530
+Description: Process with injected thread attempted to create an exe file and an autorun entryDescription
+bash.virus_id:4294922712
+
+Signature: SONAR.SuspBeh!gen54
+Description: Suspicious process attempted to copy itself to suspicious locationDescription
+bash.virus_id:4294923230
+
+Signature: SONAR.SuspBeh!gen540
+Description: Process attempted to disable task manager and registry toolsDescription
+bash.virus_id:4294922722
+
+Signature: SONAR.SuspBeh!gen57
+Description: Suspicious process attempted to copy itself, to hide the copy, and to launch the copyDescription
+bash.virus_id:4294923472
+
+Signature: SONAR.SuspBeh!gen576
+Description: Suspicious Browser Helper Object modificationDescription
+bash.virus_id:4294922758
+
+Signature: SONAR.SuspBeh!gen6
+Description: Process with a hidden executable attempted to write a load pointDescription
+bash.virus_id:4294921105
+
+Signature: SONAR.SuspBeh!gen609
+Description: Suspicious process attempted to copy its exe to AppData folder and to launch the copyDescription
+bash.virus_id:4294924331
+
+Signature: SONAR.SuspBeh!gen611
+Description: Suspicious process attempted to hide a directory and to create a link to the hidden directoryDescription
+bash.virus_id:4294924438
+
+Signature: SONAR.SuspBeh!gen615
+Description: Suspicious process attempted to kill Windows Explorer using TASKKILLDescription
+bash.virus_id:4294924507
+
+Signature: SONAR.SuspBeh!gen616
+Description: Suspicious process attempted to copy itself to the AppData folder and to create a load point to the copyDescription
+bash.virus_id:4294924533
+
+Signature: SONAR.SuspBeh!gen62
+Description: Suspicious process attempted to launch PowerShell to download a fileDescription
+bash.virus_id:4294923516
+
+Signature: SONAR.SuspBeh!gen625
+Description: Suspicious process attempted to launch a copy of itself in Profile folderDescription
+bash.virus_id:4294924535
+
+Signature: SONAR.SuspBeh!gen626
+Description: Suspicious process attempted to disable Task Manager and to create a load point to itselfDescription
+bash.virus_id:4294924561
+
+Signature: SONAR.SuspBeh!gen629
+Description: Suspicious process attempted to launch an exe with random-looking filename and directoryDescription
+bash.virus_id:4294924705
+
+Signature: SONAR.SuspBeh!gen630
+Description: Script attempted to create an autorun entry to scriptDescription
+bash.virus_id:4294924706
+
+Signature: SONAR.SuspBeh!gen631
+Description: Suspicious process attempted to copy itself to the AppData folder and to create a load point to the copyDescription
+bash.virus_id:4294924719
+
+Signature: SONAR.SuspBeh!gen633
+Description: Suspicious process attempted to copy itself to the ProgramData folder and to create a load point to the copyDescription
+bash.virus_id:4294924728
+
+Signature: SONAR.SuspBeh!gen635
+Description: Perl attempted to launch another copy of Perl with a different file nameDescription
+bash.virus_id:4294924759
+
+Signature: SONAR.SuspBeh!gen636
+Description: Python attempted to launch another copy of Python with a different file nameDescription
+bash.virus_id:4294924760
+
+Signature: SONAR.SuspBeh!gen637
+Description: MSHTA attempted to launch another copy of MSHTA with a different file nameDescription
+bash.virus_id:4294924761
+
+Signature: SONAR.SuspBeh!gen638
+Description: RunDLL attempted to launch another copy of RunDLL with a different file nameDescription
+bash.virus_id:4294925232
+
+Signature: SONAR.SuspBeh!gen639
+Description: RegSvr32  attempted to launch another copy of RegSvr32 with a different file nameDescription
+bash.virus_id:4294924763
+
+Signature: SONAR.SuspBeh!gen64
+Description: Suspicious process attempted to delete itselfDescription
+bash.virus_id:4294923536
+
+Signature: SONAR.SuspBeh!gen640
+Description: Wscript  attempted to launched another copy of wscript with a different file nameDescription
+bash.virus_id:4294924764
+
+Signature: SONAR.SuspBeh!gen641
+Description: Cscript  attempted to launch another copy of cscript with a different file nameDescription
+bash.virus_id:4294924765
+
+Signature: SONAR.SuspBeh!gen642
+Description: Cmd.exe  attempted to launch another copy of cmd.exe with a different file nameDescription
+bash.virus_id:4294924766
+
+Signature: SONAR.SuspBeh!gen645
+Description: Suspicious process attempted to copy itself to the Windows folder and to create a load point to the copyDescription
+bash.virus_id:4294924822
+
+Signature: SONAR.SuspBeh!gen646
+Description: Suspicious process attempted to copy itself to the AppData folder and to create a Scheduled Task to the copyDescription
+bash.virus_id:4294924823
+
+Signature: SONAR.SuspBeh!gen648
+Description: Suspicious process attempted to create an executable (but with a .bin extension) in the LocalAppData folder and to launch the copyDescription
+bash.virus_id:4294924845
+
+Signature: SONAR.SuspBeh!gen649
+Description: Suspicious process attempted to copy itself to the Windows folder and to launch scriptDescription
+bash.virus_id:4294924846
+
+Signature: SONAR.SuspBeh!gen650
+Description: Suspicious process copied itself to the user temp folder and created a load point to the copy.Description
+bash.virus_id:4294924854
+
+Signature: SONAR.SuspBeh!gen652
+Description: Suspicious process attempted to create a suspiciously named file 'system.dll' in User TempDescription
+bash.virus_id:4294924868
+
+Signature: SONAR.SuspBeh!gen654
+Description: Suspicious process attempted to create an exe file in User Temp folder and a Scheduled Task to this exeDescription
+bash.virus_id:4294924856
+
+Signature: SONAR.SuspBeh!gen657
+Description: Suspicious process attempted to create a file a with double extension '.exe.lnk' in the Startup FolderDescription
+bash.virus_id:4294924872
+
+Signature: SONAR.SuspBeh!gen658
+Description: Process copied itself to Common Files and created a Scheduled Task to the copyDescription
+bash.virus_id:4294924873
+
+Signature: SONAR.SuspBeh!gen663
+Description: Suspicious process launched from Alternate Data StreamDescription
+bash.virus_id:4294924943
+
+Signature: SONAR.SuspBeh!gen664
+Description: Suspicious use of Windows accessibility featuresDescription
+bash.virus_id:4294924953
+
+Signature: SONAR.SuspBeh!gen666
+Description: Script created loadpoint to JavaScriptDescription
+bash.virus_id:4294924950
+
+Signature: SONAR.SuspBeh!gen667
+Description: Suspicious process created a hidden directory and copied itself to the hidden directoryDescription
+bash.virus_id:4294924951
+
+Signature: SONAR.SuspBeh!gen67
+Description: Suspicious process attempted to copy itself and to create a load point to the copyDescription
+bash.virus_id:4294923539
+
+Signature: SONAR.SuspBeh!gen670
+Description: Suspicious process created exe in ProgramData folder and ran the copyDescription
+bash.virus_id:4294924983
+
+Signature: SONAR.SuspBeh!gen671
+Description: Suspicious C# compiler usageDescription
+bash.virus_id:4294924984
+
+Signature: SONAR.SuspLoad!g28
+Description: Attempting to load an unsigned DLL via RegsvcsDescription
+bash.virus_id:4294926903
