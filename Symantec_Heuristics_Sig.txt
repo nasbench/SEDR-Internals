@@ -1,0 +1,407 @@
+Signature: CL.Downloader!gen79
+Description: Script called bitsadmin
+threat.id:4290642301
+
+Signature: CL.Downloader!gen92
+Description: Script called bitsadmin
+threat.id:4290642343
+
+Signature: CL.Downloader!gen80
+Description: Script called certutil
+threat.id:4290642302
+
+Signature: CL.Downloader!gen81
+Description: Script called CMSTP
+threat.id:4290642311
+
+Signature: CL.Downloader!gen82
+Description: Suspicious use of CMSTP
+threat.id:4290642312
+
+Signature: CL.Downloader
+Description: Suspicious use of CMSTP
+threat.id:4290642097
+
+Signature: CL.Downloader!gen64
+Description: Bitsadmin download attempted
+threat.id:4290642233
+
+Signature: CL.Downloader!gen63
+Description: Certutil download attempted
+threat.id:4290642232
+
+Signature: CL.Downloader!gen61
+Description: Scheduled task called MSHTA
+threat.id:4290642224
+
+Signature: CL.Downloader!gen87
+Description: Script called MSHTA
+threat.id:4290642327
+
+Signature: CL.Downloader!gen88
+Description: Script called msiexec
+threat.id:4290642329
+
+Signature: CL.Downloader!gen89
+Description: Suspicious call to msiexec
+threat.id:4290642330
+
+Signature: CL.Downloader!gen12
+Description: Suspicious PowerShell detected
+threat.id:4290642109
+
+Signature: CL.Downloader!gen10
+Description: Suspicious PowerShell detected
+threat.id:4290642107
+
+Signature: CL.Downloader!gen11
+Description: Suspicious PowerShell detected
+threat.id:4290642108
+
+Signature: CL.Downloader!gen96
+Description: Suspicious PowerShell detected
+threat.id:4290642347
+
+Signature: CL.Downloader!gen1
+Description: Suspicious PowerShell detected: suspicious encoded command invoked
+threat.id:4290642098
+
+Signature: CL.Downloader!gen2
+Description: Suspicious PowerShell detected
+threat.id:4290642099
+
+Signature: CL.Downloader!gen13
+Description: Suspicious PowerShell detected
+threat.id:4290642113
+
+Signature: CL.Downloader!gen3
+Description: Suspicious PowerShell detected
+threat.id:4290642100
+
+Signature: CL.Downloader!gen17
+Description: Suspicious PowerShell detected: execution of file-less, registry based script
+threat.id:4290642120
+
+Signature: CL.Downloader!gen31
+Description: Suspicious PowerShell detected
+threat.id:4290642183
+
+Signature: CL.Downloader!gen32
+Description: Suspicious PowerShell detected: In-memory malware executed
+threat.id:4290642184
+
+Signature: CL.Downloader!gen53
+Description: Suspicious PowerShell detected: In-memory malware executed
+threat.id:4290642212
+
+Signature: CL.Downloader!gen77
+Description: Suspicious PowerShell detected
+threat.id:4290642299
+
+Signature: CL.Downloader!gen78
+Description: Suspicious PowerShell detected
+threat.id:4290642300
+
+Signature: CL.Downloader!gen38
+Description: Suspicious PowerShell detected
+threat.id:4290642192
+
+Signature: CL.Downloader!gen4
+Description: Suspicious PowerShell detected
+threat.id:4290642101
+
+Signature: CL.Downloader!gen5
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642102
+
+Signature: CL.Downloader!gen6
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642103
+
+Signature: CL.Downloader!gen7
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642104
+
+Signature: CL.Downloader!gen8
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642105
+
+Signature: CL.Downloader!gen9
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642106
+
+Signature: CL.Downloader!gen16
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642119
+
+Signature: CL.Downloader!gen18
+Description: Suspicious PowerShell detected
+threat.id:4290642123
+
+Signature: CL.Downloader!gen19
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642124
+
+Signature: CL.Downloader!gen23
+Description: Suspicious PowerShell detected
+threat.id:4290642131
+
+Signature: CL.Downloader!gen24
+Description: Suspicious PowerShell detected
+threat.id:4290642132
+
+Signature: CL.Downloader!gen25
+Description: Suspicious PowerShell detected: suspicious encoded command invoked
+threat.id:4290642133
+
+Signature: CL.Downloader!gen26
+Description: Suspicious PowerShell detected
+threat.id:4290642134
+
+Signature: CL.Downloader!gen27
+Description: Suspicious PowerShell detected
+threat.id:4290642176
+
+Signature: CL.Downloader!gen28
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642178
+
+Signature: CL.Downloader!gen33
+Description: Suspicious PowerShell detected
+threat.id:4290642185
+
+Signature: CL.Downloader!gen35
+Description: Suspicious PowerShell detected
+threat.id:4290642189
+
+Signature: CL.Downloader!gen36
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642190
+
+Signature: CL.Downloader!gen37
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642191
+
+Signature: CL.Downloader!gen41
+Description: Suspicious PowerShell detected
+threat.id:4290642197
+
+Signature: CL.Downloader!gen42
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642198
+
+Signature: CL.Downloader!gen54
+Description: Suspicious PowerShell detected: execution of file-less, registry based script
+threat.id:4290642213
+
+Signature: CL.Downloader!gen55
+Description: Suspicious PowerShell detected: suspicious obfuscated command executed
+threat.id:4290642214
+
+Signature: CL.Downloader!gen95
+Description: Suspicious PowerShell detected: suspicious obfuscated command executed
+threat.id:4290642346
+
+Signature: CL.Downloader!gen57
+Description: Suspicious PowerShell detected
+threat.id:4290642219
+
+Signature: CL.Downloader!gen58
+Description: Suspicious PowerShell detected: execution of file-less, registry based script
+threat.id:4290642221
+
+Signature: CL.Downloader!gen94
+Description: Suspicious PowerShell detected: execution of file-less, registry based script
+threat.id:4290642345
+
+Signature: CL.Downloader!gen74
+Description: Suspicious PowerShell detected: execution of file-less, registry based script
+threat.id:4290642296
+
+Signature: CL.Downloader!gen59
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642222
+
+Signature: CL.Downloader!gen60
+Description: Suspicious PowerShell detected
+threat.id:4290642223
+
+Signature: CL.Downloader!gen69
+Description: Suspicious PowerShell detected
+threat.id:4290642285
+
+Signature: CL.Downloader!gen102
+Description: Suspicious PowerShell detected
+threat.id:4290642363
+
+Signature: CL.Downloader!gen103
+Description: Suspicious PowerShell detected
+threat.id:4290642364
+
+Signature: CL.Downloader!gen73
+Description: Suspicious PowerShell detected
+threat.id:4290642291
+
+Signature: CL.Downloader!gen75
+Description: Suspicious PowerShell detected
+threat.id:4290642297
+
+Signature: CL.Downloader!gen76
+Description: Malicious PowerShell detected: credential theft
+threat.id:4290642298
+
+Signature: CL.Downloader!gen90
+Description: Suspicious PowerShell detected
+threat.id:4290642340
+
+Signature: CL.Downloader!gen91
+Description: Suspicious PowerShell detected
+threat.id:4290642342
+
+Signature: CL.Downloader!gen97
+Description: Suspicious PowerShell detected
+threat.id:4290642348
+
+Signature: CL.Downloader!gen98
+Description: Suspicious PowerShell detected
+threat.id:4290642350
+
+Signature: CL.Downloader!gen100
+Description: Suspicious PowerShell detected: suspicious encoded command invoked
+threat.id:4290642353
+
+Signature: CL.Downloader!gen101
+Description: Suspicious PowerShell detected
+threat.id:4290642354
+
+Signature: CL.Downloader!sr3
+Description: Suspicious PowerShell detected
+threat.id:4290642179
+
+Signature: CL.Downloader!s14
+Description: Suspicious PowerShell detected
+threat.id:4290642359
+
+Signature: CL.Downloader!gen62
+Description: Suspicious use of RegSvr32 detected
+threat.id:4290642231
+
+Signature: CL.Downloader!gen68
+Description: Suspicious use of RegSvr32 detected
+threat.id:4290642284
+
+Signature: CL.Downloader!s7
+Description: Suspicious use of Scheduled Tasks detected
+threat.id:4290642306
+
+Signature: CL.Downloader!s8
+Description: Suspicious use of Scheduled Tasks detected
+threat.id:4290642307
+
+Signature: CL.Downloader!s9
+Description: Suspicious use of Scheduled Tasks detected
+threat.id:4290642305
+
+Signature: CL.Downloader!gen85
+Description: Attempt to disable security software detected
+threat.id:4290642320
+
+Signature: CL.Downloader!gen20
+Description: Suspicious command line detected
+threat.id:4290642127
+
+Signature: CL.Downloader!gen43
+Description: Suspicious command line detected
+threat.id:4290642200
+
+Signature: CL.Downloader!gen47
+Description: Suspicious use of WMIC detected
+threat.id:4290642206
+
+Signature: CL.Downloader!s18
+Description: Suspicious Windows Shortcut detected
+threat.id:4290642379
+
+Signature: CL.Downloader!gen114
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642406
+
+Signature: CL.Downloader!gen159
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642573
+
+Signature: CL.Downloader!gen127
+Description: Suspicious PowerShell detected: suspicious encoded command invoked
+threat.id:4290642442
+
+Signature: CL.Downloader!gen149
+Description: Suspicious PowerShell detected: suspicious encoded command invoked
+threat.id:4290642525
+
+Signature: ISB.Heuristic!gen12
+Description: Malicious PowerShell detected: credential theft
+threat.id:4290642603
+
+Signature: CL.Downloader!aat171
+Description: Suspicious PowerShell detected: content downloaded from a remote location and executed
+threat.id:4290642616
+
+Signature: ISB.Downloader!aat368
+Description: Suspicious PowerShell detected: .dll downloaded from a remote location and executed
+threat.id:4290642615
+
+Signature: ISB.Heuristic!gen11
+Description: Suspicious PowerShell detected: Powersploit
+threat.id:4290642602
+
+Signature: CL.Downloader!aat1
+Description: Suspicious PowerShell detected: suspicious encoded command invoked
+threat.id:4290642605
+
+Signature: CL.Downloader!gen125
+Description: Suspicious PowerShell detected: extract and store cookies
+threat.id:4290642434
+
+Signature: ISB.Downloader!aat363
+Description: Suspicious PowerShell detected: anti-analysis technique used
+threat.id:4290642607
+
+Signature: ISB.Downloader!aat364
+Description: Suspicious PowerShell detected: anti-analysis technique used
+threat.id:4290642608
+
+Signature: ISB.Downloader!aat365
+Description: Suspicious PowerShell detected: anti-analysis technique used
+threat.id:4290642609
+
+Signature: ISB.Downloader!gen40
+Description: Suspicious PowerShell detected: suspicious obfuscated command executed
+threat.id:4290641946
+
+Signature: CL.Downloader!aat169
+Description: Suspicious PowerShell detected: In-memory malware executed
+threat.id:4290642611
+
+Signature: ISB.Downloader!gen178
+Description: Suspicious PowerShell detected: In-memory malware executed
+threat.id:4290642187
+
+Signature: ISB.Downloader!gen67
+Description: Suspicious attempt by script to load and execute .NET assembly
+threat.id:4290641986
+
+Signature: ISB.Downloader!gen210
+Description: Malicious PowerShell detected: credential theft
+threat.id:4290642257
+
+Signature: ISB.Downloader!gen226
+Description: Malicious PowerShell detected: credential theft
+threat.id:4290642279
+
+Signature: ISB.Downloader!gen246
+Description: Malicious PowerShell detected: credential theft
+threat.id:4290642328
+
+Signature: Bloodhound.Exploit.820
+Description: Attempted exploit of Type 1 Font Parsing Remote Code Execution Vulnerability
+threat.id:4290642328
