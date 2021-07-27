@@ -1,0 +1,108 @@
+-   eDsquery : Dsquery process launch detected
+-   eNetGroup : Net process launch with group command detected
+-   eNtds : Copy of Active Directory database file detected
+-   eNewChromeBrowserExtension : New browser extension added to Chrome
+-   eNewFirefoxBrowserExtension : New browser extension added to Firefox
+-   eBitsadmin : Bitsadmin tool usage attempted
+-   eCredentialDumping : Credential dumping attempt detected
+-   eDocExeExtension : A file with a common Document extension is followed by a .exe extension, a common tactic used by malware to take advantage of the default setting in Windows that hides the last extension for known file types, enticing the user to open what appears to be a media file, but is actually a malicious program.
+-   eMediaExeExtension : A file with a common media extension is followed by a .exe extension, a common tactic used by malware to take advantage of the default setting in Windows that hides the last extension for known file types, enticing the user to open what appears to be a media file, but is actually a malicious program.
+-   eADSFileCreation : File creation with Alternate Data Stream detected
+-   eAutomatedCollection : Attempt to collect all files of a certain type detected
+-   eChangeDefaultFileAssoc : Change to default File Association handler detected
+-   eCompressedFileCreation : Compressed file created
+-   eFileAttrHidden : File Attributes is set to hidden
+-   eFileDeletion : File deletion related activity detected
+-   eFileDirectoryDiscovery : File or directory discovery attempt detected
+-   eFolderDeletion : Folder deletion related activity detected
+-   eImportantFileCreation : Important file created
+-   eMakecabCompressedFile : Compressed file created using makecab.exe
+-   eRemoteFileCopy_SND_PECreation : PE Creation from remote location detected
+-   eStartFolder : File creation in startup folder detected
+-   eCtrlPanelItems : Control panel activity detected
+-   eInstallUtil : InstallUtil tool usage detected
+-   eMshta : Microsoft HTML Applications tool usage detected
+-   eMSIExec : Msiexec process launch detected
+-   eMSBuild : Msbuild process launch detected
+-   eTracker : Tracker.exe file tracker utility process launch detected
+-   eArp : Arp process launch detected
+-   eNetshFirewallDiscovery : Netsh used to discover firewall profile properties
+-   eNbtstat : Nbtstat process launch detected
+-   ePing : Ping process launch detected
+-   eSysNetworkConfigDiscovery : System network configuration discovery attempt detected
+-   eSysNetworkConnectionsDiscovery : System network connections discovery attempt detected
+-   eWhoami : Whoami process launch detected
+-   eSMBNetworkProtocol : Network activity over Server Message Block (SMB) detected.
+-   eNetShare : Net process launch with share command detected
+-   eNetUseUser : Network share accessed via user credentials
+-   eNetworkShareConnRemoval : Network share connection removal attempt detected
+-   eNetView : Net process launch with view command detected (net.exe view)
+-   eWindowsAdminShares : Windows admin share access attempt detected
+-   eRegistryRunKeys : Registry key or value set for system run keys or startup folder item keys
+-   eDisableRDPUserAuthentication : RDP user authentication disabled
+-   eEnableRDP : RDP enabled
+-   eRemoteDesktopProtocol : Network connection over Remote Desktop Protocol detected
+-   eRemoteServices : Network connection over remote services detected
+-   eWindowsManagementInstrumentation : Usage of Windows Management Instrumentation detected in command line.
+-   ePS_base64_compressed : Suspicious PowerShell detected: suspicious obfuscated command executed
+-   ePS_download_exec : Suspicious PowerShell detected: content downloaded from a remote location and executed
+-   ePS_download_exec_dll : Suspicious PowerShell detected: .dll downloaded from a remote location and executed
+-   ePS_encoded_command : Encoded PowerShell command executed
+-   ePS_extract_cookies : Suspicious PowerShell detected: extract and store cookies
+-   ePS_fileless : Suspicious PowerShell detected: In-memory malware executed
+-   ePS_hidden_encoded : Suspicious PowerShell detected: suspicious encoded command invoked
+-   ePS_Launch : PowerShell Launch detected: generic PowerShell command
+-   ePS_mimikatz : Malicious PowerShell detected: credential theft
+-   ePS_powersploit : Suspicious PowerShell detected: Powersploit
+-   ePS_registry : Suspicious PowerShell detected: execution of fileless, registry-based script 
+-   ePS_sandbox : Suspicious PowerShell detected: anti-analysis technique used
+-   ePS_script_created : Ps1 PowerShell script file created
+-   eCscCompile : Code compiled using csc.exe / Created files by csc.exe
+-   eDataStagedDiscovery : Attempt to stage system information data in file detected
+-   eImageFileExecutionOptionsInjection : Image file execution options injection attempt detected / Image File Execution Options in registry
+-   eNetshAddHelperDLL : Attempt to execute arbitrary code through proxy detected
+-   eRegsvcsRegasm : Regsvcs or Regasm tool usage detected
+-   eRegsvr32 : Launch detected for regsvr32.exe
+-   eRunAs : RunAs used to execute process under a different user account
+-   eRundll32 : Launch detected for rundll32.exe
+-   eScripting : Suspicious launch of scripting tool detected (jscript.dll)
+-   eSuspiciousProtocolPortSearchindexer : Suspicious Protocol-Port Usage By System Processes (searchindexer.exe)
+-   eSuspiciousProtocolPortWuauclt : Suspicious Protocol-Port Usage By System Processes (wuauclt.exe)
+-   eCOMHijacking : Component Object Model modified
+-   eMSDebugger : Microsoft signed debugger process launch detected
+-   ePasswordFilterDLL : Change to Password Filter DLL detected
+-   eUnexpectedLocationWlanapi : System File Launched Or Loaded From Unexpected Location (wlanapi.dll) 
+-   eUnexpectedLocationWldap32 : System File Launched Or Loaded From Unexpected Location (wldap32.dll) 
+-   eUnexpectedLocationWmasf : System File Launched Or Loaded From Unexpected Location (wmasf.dll)
+-   eUnexpectedLocationWmp : System File Launched Or Loaded From Unexpected Location (wmp.dll)
+-   eUnexpectedLocationWmvcore : System File Launched Or Loaded From Unexpected Location (wmvcore.dll)
+-   eUnexpectedLocationXmllite : System File Launched Or Loaded From Unexpected Location (xmllite.dll)
+-   eWinlogonLoadpoint
+-   eWinlogonStartups : Load Point Modification
+-   eDriveByCompromise : Browser process injection detected
+-   eMitreProcessInjection
+-   eScheduledTask_change : Scheduled task change detected
+-   eAccountDiscovery : Account discovery attempt detected
+-   eAccountManipulation : Account manipulation attempt detected
+-   eCreateAccount : Account created
+-   eSessionLogoff : Session Logoff
+-   eSessionLogon : Session  Logon
+-   eSysInfoAccountDiscovery : System information or account discovery attempt detected
+-   eNetUser : Net process launch with user command detected
+-   eWindowsEventLogDeletion : Attempt to Change to Windows Event Logs or Registry Settings
+-   eWindowsEventLogModification : Direct modification of Windows event log files.
+-   eWindowsEventLogsSettings : An attempt was made to modify Windows Event Log settings, possibly with the intent to cause event logs to cease recording malicious events, making forensic investigations more difficult.
+-   eGenericProcessLaunch : Generic process launch event
+-   eProcessClose : Process Termination
+-   eTaskkill : Taskkill execution for unspecified reason detected
+-   eTasklist : Tasklist execution for unspecified reason detected
+-   eModifyExistingService : Modification of existing service detected
+-   eNewService : Creation of new service detected
+-   eSvcExecution : Service execution attempt detected
+-   eScSvcQuery
+-   eScSvcStart
+-   eScSvcStop
+-   eSdelete : Sdelete process launch detected
+-   eSysOwnerUserDiscovery : System owner or user discovery attempt detected
+-   eSystemInformationDiscovery : System information discovery attempt detected
+-   eSystemTimeDiscovery : System time discovery attempt detected
