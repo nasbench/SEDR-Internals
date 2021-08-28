@@ -2,14 +2,13 @@
 
 This is a place where I put everything related to my research on Symantec EDR Internals. Currently it contains the following:
 
-* **[SEDR_Enrichment_Rules](https://github.com/nasbench/SEDR-Internals/blob/main/SEDR_Enrichment_Rules.txt)** : A list of Symantec EDR data enrichment rules with a short description for each.
+* **[Enrichment-Rules](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/Enrichment-Rules.txt)** : A list of Symantec EDR data enrichment rules with a short description for each.
 
-* **[Symantec_Heuristics_Sig](https://github.com/nasbench/SEDR-Internals/blob/main/Symantec_Heuristics_Sig.txt)** : A list of Symantec EDR heuristics signatures with a description for each. Plus an inclusion of the corresponding "threat.id" value for usage with Symantec EDR (SEDR) search queries.
+* **[Heuristics](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/Heuristics.txt)** : A list of Symantec EDR heuristics signatures with a description for each. Plus an inclusion of the corresponding "threat.id" value for usage with Symantec EDR (SEDR) search queries.
 
-* **[Symantec_SONAR_Sig](https://github.com/nasbench/SEDR-Internals/blob/main/Symantec_SONAR_Sig.txt)** : A list of Symantec SONAR signatures with a description of each signature. Plus an inclusion of the corresponding "bash.virus_id" value for usage with Symantec EDR (SEDR) search queries.
+* **[SONAR](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/SONAR.txt)** : A list of Symantec SONAR signatures with a description of each signature. Plus an inclusion of the corresponding "bash.virus_id" value for usage with Symantec EDR (SEDR) search queries.
 
-* **[SEDR_ATP_Rules_Regex](https://github.com/nasbench/SEDR-Internals/blob/main/SEDR_ATP_Rules_Regex.txt)** : File that contains some example regular expressions used by SEDR to detect and enrich events.
-
+* **[ATP-Rules-Regex](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/ATP-Rules-Regex.txt)** : File that contains some example regular expressions used by SEDR to detect and enrich events.
 
 ### Blog
 I wrote a couple of blog posts describing different component of SEDR which you can find here:
@@ -20,6 +19,6 @@ I wrote a couple of blog posts describing different component of SEDR which you 
 * **[Forensic Artifacts — Parsing Symantec EDR “localdatastore” LevelDB Files](https://nasbench.medium.com/forensics-artifacts-parsing-symantec-edr-localdatastore-leveldb-files-86f5c75736d5)**
 
 ### Tools
-These are some tools I wrote that can help you understand the internals of SEDR and how it works:
+These are some of the tools I wrote that can help you understand a little bit about the internals of SEDR and how it works:
 
 * **[sedr-localdatastore-parser](https://github.com/nasbench/sedr-localdatastore-parser)**
