@@ -10,7 +10,8 @@ This is a place where I put everything related to my research on Symantec EDR In
 
 * **[ATP-Rules-Regex](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/ATP-Rules-Regex.txt)** : File that contains some example regular expressions used by SEDR to detect and enrich events.
 
-### Blog
+## Blog
+
 I wrote a couple of blog posts describing different component of SEDR which you can find here:
 
 * **[Symantec EDR Internals — Criterion](https://nasbench.medium.com/symantec-edr-internals-criterion-fa49be4e21af)**
@@ -18,7 +19,8 @@ I wrote a couple of blog posts describing different component of SEDR which you 
 * **[Forensic Artifacts — Symantec EDR “localdatastore” Folder](https://nasbench.medium.com/forensics-artifacts-symantec-edr-localdatastore-folder-9bff91d2876d)**
 * **[Forensic Artifacts — Parsing Symantec EDR “localdatastore” LevelDB Files](https://nasbench.medium.com/forensics-artifacts-parsing-symantec-edr-localdatastore-leveldb-files-86f5c75736d5)**
 
-### Tools
+## Tools
+
 These are some of the tools I wrote that can help you understand a little bit about the internals of SEDR and how it works:
 
 * **[sedr-localdatastore-parser](https://github.com/nasbench/sedr-localdatastore-parser)**
