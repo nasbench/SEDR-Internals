@@ -8,7 +8,7 @@ This is a place where I put everything related to my research on Symantec EDR In
 
 * **[SONAR](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/SONAR.txt)** : A list of Symantec SONAR signatures with a description of each signature. Plus an inclusion of the corresponding "bash.virus_id" value for usage with Symantec EDR (SEDR) search queries.
 
-* **[ATP-Rules-Regex](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/ATP-Rules-Regex.txt)** : File that contains some example regular expressions used by SEDR to detect and enrich events.
+* **[ATP-Rules-Regex](https://github.com/nasbench/SEDR-Internals/blob/main/Signatures/ATP-Rules-Regex.txt)** : A file that contains some example regular expressions used by SEDR to detect and enrich events.
 
 ## Blog
 
